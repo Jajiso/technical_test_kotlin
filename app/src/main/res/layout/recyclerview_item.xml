@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:background="#CFCACA"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/account_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/account_balance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/account_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/account_iban"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/account_alias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/account_product_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/account_product_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/account_linked_account_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="gone" />
+</LinearLayout>
